@@ -1,3 +1,9 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js')
+  });
+}
+
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(restaurant-v1).then(function(cache) {
