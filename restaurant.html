@@ -13,34 +13,34 @@
 <body class="inside">
   <!-- Beginning header -->
   <header>
-    <!-- Beginning nav -->
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
-    <!-- Beginning breadcrumb -->
     <ul id="breadcrumb" >
       <li><a href="/">Home</a></li>
     </ul>
-    <!-- End breadcrumb -->
-    <!-- End nav -->
   </header>
   <!-- End header -->
 
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
+    <section id="map-container" aria-labelledby="map-aria-decriptor"role="application">
       <div id="map"></div>
     </section>
+    <label id="map-aria-decriptor">Leaflet Map</label>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
       <h1 id="restaurant-name"></h1>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+      <p id="restaurant-address" aria-labelledby="address"></p>
+      <label id="address">located at</label>
+      <table id="restaurant-hours" aria-labelledby="hours"></table>
+      <label id="hours">hours of operation</label>
     </section>
+
     <!-- end restaurant -->
     <!-- Beginning reviews -->
     <section id="reviews-container">
