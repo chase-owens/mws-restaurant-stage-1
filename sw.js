@@ -1,15 +1,9 @@
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
-
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(restaurant-v1).then(function(cache) {
       return cache.addAll([
         '/',
-        '/.index.html',
+        '/index.html',
         '/restaurant.html',
         '/css/styles.css',
         '/js/main.js',
@@ -20,7 +14,7 @@ self.addEventListener('install', function(e) {
   );
 });
 
-self.addEventListtener('fetch', function(event) {
+self.addEventListener('fetch', function(event) {
 
   event.respondWith(
     caches.match(event.request).then(function(response) {
