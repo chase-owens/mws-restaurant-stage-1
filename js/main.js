@@ -65,9 +65,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
     const option = document.createElement('option');
     option.innerHTML = cuisine;
     option.value = cuisine;
-    option.tabindex = '-1';
     option.role = 'option';
-    option.ariaSelected = 'false';
     select.append(option);
   });
 }

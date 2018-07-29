@@ -106,9 +106,6 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
 }
-label {
-	display: none;
-}
 /* ====================== Restaurant Filtering ====================== */
 .filter {
   width: 100%;
@@ -400,13 +397,20 @@ label {
 	  width: 24%;
 	}
 	.inside #map-container {
-		left: 47vw;
-		width: 42vw;
-		max-width: 450px;
-	}
-	#breadcrumb {
-		margin-left: 47vw;
+		left: 50vw;
 		width: 42vw;
 		max-width: 400px;
+		max-height: 350px;
 	}
+	#breadcrumb {
+		margin-left: 50vw;
+		max-width: 300px;
+	}
+	.inside #footer {
+	  width: 50%;
+	}
+}
+
+label {
+	display: none;
 }
