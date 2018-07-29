@@ -1,18 +1,19 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('sw.js').then(function() {
+    navigator.serviceWorker.register('./sw.js').then(function() {
       console.log("Registered");
-    }).catch(function() {
-      console.log("Uh oh :(");
+    }).catch(function(error) {
+      console.log("Uh oh :(", error);
     })
   });
 }
 
+
 let restaurants,
   neighborhoods,
-  cuisines
-var newMap
-var markers = []
+  cuisines;
+var newMap;
+var markers = [];
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
