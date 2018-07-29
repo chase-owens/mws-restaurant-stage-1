@@ -399,4 +399,14 @@ label {
 	#restaurants-list li {
 	  width: 24%;
 	}
+	.inside #map-container {
+		left: 47vw;
+		width: 42vw;
+		max-width: 450px;
+	}
+	#breadcrumb {
+		margin-left: 47vw;
+		width: 42vw;
+		max-width: 400px;
+	}
 }

@@ -36,9 +36,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
     const option = document.createElement('option');
     option.innerHTML = neighborhood;
     option.value = neighborhood;
-    option.tabindex = '-1';
     option.role = 'option';
-    option.ariaSelected - 'false';
     select.append(option);
   });
 }
