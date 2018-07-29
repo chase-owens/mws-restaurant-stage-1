@@ -46,6 +46,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
     const option = document.createElement('option');
     option.innerHTML = neighborhood;
     option.value = neighborhood;
+    option.id = neighborhood;
     option.role = 'option';
     select.append(option);
   });
@@ -75,6 +76,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
     const option = document.createElement('option');
     option.innerHTML = cuisine;
     option.value = cuisine;
+    option.id = cuisine;
     option.role = 'option';
     select.append(option);
   });
