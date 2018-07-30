@@ -6,12 +6,10 @@
 
 For this project, Udacity scholars were provide with this [source code](https://github.com/udacity/mws-restaurant-stage-1). This base code provided a static design that lacked accessibility. The challenge was to make it responsive on different sized displays, accessible for screen reader use, and to include a service worker for a seamless offline experience.
 
-### Home Page
 <p align="center">
   <img src="https://farm1.staticflickr.com/940/42820244885_8086a80000.jpg" alt="Home Page" />
-</p
+</p>
 
-### Restaurant Details Page
 <p align="center">
   <img src="https://farm1.staticflickr.com/856/42820245405_b8e01e9d4c.jpg" alt="Restaurant Details Page" />
 </p>
