@@ -2,17 +2,23 @@
 ---
 #### _Project 5 Udacity Front-End Web Development Nanodegree Program - Mobile Web Specialist_
 
-## Project Overview:
+## Project Overview
 
-For this project, I incrementally converted a [static webpage](https://github.com/udacity/mws-restaurant-stage-1) to a mobile-ready web application. The base code provided a static design that lacked accessibility and I made it responsive on different sized displays and accessible for screen reader use. Finally, I added a service worker to begin the process of creating a seamless offline experience.
+For this project, Udacity scholars were provide with this [source code](https://github.com/udacity/mws-restaurant-stage-1). This base code provided a static design that lacked accessibility. The challenge was to make it responsive on different sized displays, accessible for screen reader use, and to include a service worker for a seamless offline experience.
 
-![Home Page](https://farm1.staticflickr.com/940/42820244885_8086a80000.jpg)
+### Home Page
+<p align="center">
+  <img src="https://farm1.staticflickr.com/940/42820244885_8086a80000.jpg" alt="Home Page" />
+</p
 
-![Restaurant Details Page](https://farm1.staticflickr.com/856/42820245405_b8e01e9d4c.jpg)
+### Restaurant Details Page
+<p align="center">
+  <img src="https://farm1.staticflickr.com/856/42820245405_b8e01e9d4c.jpg" alt="Restaurant Details Page" />
+</p>
 
 ### Experiencing the app
 
-You can experience the Restraunt Reviews App by clicking [here](https://chase-owens.github.io/mws-restaurant-stage-1/) or by opening a simple server.
+You can experience the Restaurant Reviews App by clicking [here](https://chase-owens.github.io/mws-restaurant-stage-1/) or by opening a simple server.
 
 To spin up a simple server, navigate to the folder through the terminal and follow these instructions:
 
